@@ -1,5 +1,3 @@
-# Hello, there!
+#hey there,
 
-# This is the Collection of some practice projects of learning html and css, you can also made these projects as learning with projects. 
-
-# Thank you...
+This is the frontend design clone of LinkedIn
