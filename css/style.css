@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f2ef;
+    font-family: Arial, Georgia Italic, Helvetica;
+}
+
+
+/**Header design css starts here**/
+header {
+    /* width: 100%; */
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_left img {
+    margin-right: 10px;
+    height: 40px;
+}
+
+.header_right {
+    display: flex;
+
+}
+
+.search_box {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: #eef3f8;
+}
+
+.search_box input {
+    border: none;
+    background: none;
+    padding: 5px;
+}
+
+.headericons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.headericons:hover {
+    color: black;
+}
+
+.headericons p {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.work {
+    border-left: 1px solid rgba(0, 0, 0, 0.6);
+    ;
+    padding-left: 10px;
+}
+
+.promo {
+    color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.headericons i {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+/**Header design css ends here **/
+
+/**main body**/
+main {
+    display: grid;
+    margin-top: 35px;
+    /* max-width: 1200px; */
+    grid-template-columns: 1fr 2.5fr 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-around;
+    grid-gap: 10px
+}
+
+/** sidebar **/
+.sidebar {
+    position: sticky;
+    top: 80px;
+    /* flex: 0.2; */
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+
+}
+
+.sidebar_top .banner {
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px; */
+    object-fit: cover;
+}
+
+.sidebar_top .profile {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+.sidebar_top {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sidebar_top h3 {
+    padding: 5px;
+}
+
+.sidebar_top p {
+    margin-bottom: 10px;
+}
+
+.sidebar_stats {
+    padding: 20px;
+    background-color: white;
+}
+
+.sidebar_bottom {
+    text-align: left;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+.sidebar_bottom h3 {
+    margin: 10px 0px 10px 5px;
+}
+
+.sidebar ul li {
+    padding-left: 6px;
+    line-height: 1.2em;
+    list-style: none;
+}
+
+/* sidebar ends */
+
+.mainfeed {
+    height: 900px;
+}
+
+.inputfeed {
+    padding: 8px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.inputfeed input {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 35px;
+    width: 550px;
+    font-size: 16px;
+}
+
+
+.inputoptions ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputoptions ul li {
+    display: flex;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.mainfeed .profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    padding-left: 5px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.post_header {
+    display: flex;
+    padding: 5px;
+
+}
+
+.post_header i {
+    /* height: 40px;
+    width: 40px; */
+    padding: 0px 5px 5px 5px;
+    font-size: 34px;
+}
+
+.post_header p {
+    color: gray;
+
+}
+
+.user h3 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.ads {
+    background-color: white;
+    position: sticky;
+    height: fit-content;
+    top: 80px;
+    padding: 10px;
+}
+
+.rightsidebar ul li {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
